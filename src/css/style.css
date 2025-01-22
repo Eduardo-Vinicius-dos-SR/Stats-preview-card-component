@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  background: var(--Very-dark-blue);
+}
+
+.stats-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.stats-container .stats-card {
+  width: 1140px;
+  display: flex;
+  border-radius: 8px;
+  background: var(--Dark-desaturated-blue);
+  overflow: hidden;
+}
+
+.stats-card .stats-content {
+  padding: 70px;
+}
+
+.stats-content .stats-title {
+  margin-bottom: 30px;
+  font-size: 4rem;
+  color: var(--White);
+}
+
+.stats-content .stats-title span {
+  color: var(--Soft-violet);
+}
+
+.stats-content .stats-informations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 80px;
+  height: 60%;
+}
+
+.stats-informations .stats-description {
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  font-size: 1.5rem;
+  color: var(--Slightly-transparent-white);
+}
+
+.stats-informations .stats-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-list .stats-item {
+  text-transform: uppercase;
+}
+
+.stats-list .stats-item h2 {
+  padding-left: 2px;
+  padding-bottom: 5px;
+  font-size: 2.2rem;
+  color: var(--White);
+}
+
+.stats-list .stats-item p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.9px;
+  color: var(--Slightly-transparent-white-opa);
+}
+
+.stats-card .stats-image {
+  position: relative;
+  border-radius: 0 8px 8px 0;
+}
+
+.stats-card .stats-image::after {
+  content: "";
+  width: 100.5%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 8px 8px 0;
+  opacity: 0.5;
+  background-color: var(--Soft-violet);
+}
+
+.stats-card .stats-image img {
+  height: 100%;
+  border-radius: 0 8px 8px 0;
+}

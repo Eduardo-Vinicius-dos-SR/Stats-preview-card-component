@@ -1,0 +1,134 @@
+@media (max-width: 1200px) {
+  .stats-container .stats-card {
+    max-width: 800px;
+  }
+
+  .stats-card .stats-content {
+    padding: 30px 50px;
+  }
+
+  .stats-content .stats-title {
+    margin-bottom: 20px;
+    font-size: 2.8rem;
+  }
+
+  .stats-content .stats-informations {
+    padding-right: 60px;
+  }
+
+  .stats-informations .stats-description {
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+  }
+
+  .stats-list .stats-item h2 {
+    font-size: 1.7rem;
+  }
+
+  .stats-list .stats-item p {
+    font-size: 1.2rem;
+  }
+
+  .stats-card .stats-image {
+    width: 410px;
+    height: 316px;
+  }
+
+  .stats-card .stats-image img {
+    height: 100%;
+  }
+
+  .stats-card .stats-image,
+  .stats-card .stats-image::before,
+  .stats-card .stats-image img {
+    border-radius: 0 8px 0 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .stats-container .stats-card {
+    max-width: 375px;
+    flex-direction: column;
+  }
+
+  .stats-card .stats-content {
+    order: 1;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .stats-content .stats-title {
+    margin-bottom: 20px;
+  }
+
+  .stats-content .stats-informations {
+    padding-right: 0;
+    height: 100%;
+  }
+
+  .stats-informations .stats-description {
+    font-size: 1.6rem;
+  }
+
+  .stats-informations .stats-list {
+    flex-direction: column;
+  }
+
+  .stats-list .stats-item {
+    margin-bottom: 30px;
+  }
+  .stats-list .stats-item:last-child {
+    margin-bottom: 10px;
+  }
+
+  .stats-list .stats-item h2 {
+    padding-left: 0;
+    font-size: 2.2rem;
+  }
+
+  .stats-list .stats-item p {
+    font-size: 1.4em;
+  }
+
+  .stats-card .stats-image {
+    order: 0;
+  }
+
+  .stats-card .stats-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .stats-card .stats-image,
+  .stats-card .stats-image::before,
+  .stats-card .stats-image img {
+    border-radius: 8px 8px 0 0;
+  }
+}
+@media (max-width: 425px) {
+  .stats-container .stats-card {
+    max-width: 300px;
+  }
+
+  .stats-content .stats-title {
+    font-size: 2.5rem;
+  }
+
+  .stats-informations .stats-description {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+  }
+
+  .stats-list .stats-item h2 {
+    font-size: 2rem;
+  }
+
+  .stats-list .stats-item p {
+    font-size: 1.2em;
+  }
+
+  .stats-card .stats-image {
+    width: 300px;
+    height: 206px;
+  }
+}
